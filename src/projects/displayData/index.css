@@ -1,0 +1,69 @@
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .person-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 200px;
+  }
+  
+  .person-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .person-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .person-card h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .person-card p {
+    font-size: 16px;
+    color: #777;
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .student-count {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .clear-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .clear-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  
