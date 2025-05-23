@@ -2,13 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+
+body,
+html,
+#root {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-body{
-  min-height: 100vh; /* Same as min-h-screen */
-  background-color: #1a202c; 
-}
+/* body {
+  min-height: 100vh;
+  background-color: #1a202c;
+} */
