@@ -11,21 +11,23 @@ import Frame from "./projects/screen/Frame";
 import Question from "./projects/screen/Question";
 
 function App() {
-  // const [people, setPeople] = useState(dummyData);
+  const [people, setPeople] = useState(dummyData);
   return (
     <>
-      {/* {<Todo/>} */}
-      {/* <Calculator/> */}
-      {/* <div className="container">
-      <div className="student-count text-white">{people.length} students</div>
-      <List people={people} />
-      <button className="clear-btn" onClick={() => setPeople([])}>Clear All</button>
-    </div> */}
-      {/* <RandomColor/> */}
-      {/* <OnboardingScreen /> */}
-      {/* <AnchorMessageScreen /> */}
-      {/* <Frame /> */}
-      {/* <Question /> */}
+      {/* <Todo />
+      <Calculator />
+      <RandomColor />
+      <div className="container">
+        <div className="student-count text-white">{people.length} students</div>
+        <List people={people} />
+        <button className="clear-btn" onClick={() => setPeople([])}>
+          Clear All
+        </button>
+      </div>
+      <OnboardingScreen />
+      <AnchorMessageScreen />
+      <Frame />
+      <Question /> */}
     </>
   );
 }
