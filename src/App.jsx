@@ -14,7 +14,7 @@ function App() {
   const [people, setPeople] = useState(dummyData);
   return (
     <>
-      {/* <Todo />
+      <Todo />
       <Calculator />
       <RandomColor />
       <div className="container">
@@ -27,7 +27,7 @@ function App() {
       <OnboardingScreen />
       <AnchorMessageScreen />
       <Frame />
-      <Question /> */}
+      <Question />
     </>
   );
 }
